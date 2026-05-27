@@ -1,0 +1,729 @@
+state,district,hri_normalised,hri_score,hri_category,intrastate_rank
+Andaman & Nicobar,Nicobars,0.781577321,4.0,High,1
+Andaman & Nicobar,South Andaman,0.76831695,3.0,moderate,2
+Andhra Pradesh,Krishna,0.896569043,5.0,Very high,1
+Andhra Pradesh,West Godavari,0.88691747,5.0,Very high,2
+Andhra Pradesh,Guntur,0.880629549,5.0,Very high,3
+Andhra Pradesh,East Godavari,0.861439535,5.0,Very high,4
+Andhra Pradesh,Srikakulam,0.85772155,5.0,Very high,5
+Andhra Pradesh,Kurnool,0.828395067,4.0,High,6
+Andhra Pradesh,Anantapur,0.826314815,4.0,High,7
+Andhra Pradesh,Chittoor,0.815752802,4.0,High,8
+Andhra Pradesh,Vizianagaram,0.807198733,4.0,High,9
+Andhra Pradesh,Visakhapatna M,0.800790365,4.0,High,10
+Andhra Pradesh,Sri Potti Sriramulu Nellore,0.800119334,4.0,High,11
+Andhra Pradesh,Prakasam,0.79836359,4.0,High,12
+Andhra Pradesh,Y.S.R.,0.784981427,4.0,High,13
+Arunachal Pradesh,Kurung Kumey,0.702065836,3.0,moderate,1
+Arunachal Pradesh,Kra Daadi,0.663388789,2.0,low,2
+Arunachal Pradesh,East Kameng,0.651288835,2.0,low,3
+Arunachal Pradesh,Shi Yomi,0.63959833,2.0,low,4
+Arunachal Pradesh,Upper Subansiri,0.63592892,2.0,low,5
+Arunachal Pradesh,Tawang,0.611558474,2.0,low,6
+Arunachal Pradesh,Kamle,0.599442143,2.0,low,7
+Arunachal Pradesh,Upper Siang,0.595808494,2.0,low,8
+Arunachal Pradesh,West Kameng,0.593531918,2.0,low,9
+Arunachal Pradesh,Siang,0.581771767,2.0,low,10
+Arunachal Pradesh,Upper Dibang Valley,0.578961523,2.0,low,11
+Arunachal Pradesh,Pakke,0.578578762,2.0,low,12
+Arunachal Pradesh,Lower Siang,0.575910395,2.0,low,13
+Arunachal Pradesh,West Siang,0.574026667,2.0,low,14
+Arunachal Pradesh,Lepa Rada,0.563961264,2.0,low,15
+Arunachal Pradesh,Longding,0.546032066,2.0,low,16
+Arunachal Pradesh,Tirap,0.525363223,2.0,low,17
+Arunachal Pradesh,Lower Subansiri,0.521350314,2.0,low,18
+Arunachal Pradesh,Changlang,0.45574877,1.0,very low,19
+Arunachal Pradesh,Anjaw,0.420995592,1.0,very low,20
+Arunachal Pradesh,Papum Pare,0.408073015,1.0,very low,21
+Arunachal Pradesh,East Siang,0.383957582,1.0,very low,22
+Arunachal Pradesh,Namsai,0.350016784,1.0,very low,23
+Arunachal Pradesh,Lower Dibang Valley,0.292463995,1.0,very low,24
+Arunachal Pradesh,Lohit,0.193846185,1.0,very low,25
+Assam,Karimganj,0.778078483,4.0,High,1
+Assam,Hailakandi,0.745666399,3.0,moderate,2
+Assam,Cachar,0.641259197,2.0,low,3
+Assam,Hojai,0.635177607,2.0,low,4
+Assam,Dima Hasao,0.6291266,2.0,low,5
+Assam,West Karbi Anglong,0.618291476,2.0,low,6
+Assam,South Salmara Mancachar,0.555523818,2.0,low,7
+Assam,Karbi Anglong,0.540864843,2.0,low,8
+Assam,Golaghat,0.428281749,1.0,very low,9
+Assam,Dhemaji,0.394625045,1.0,very low,10
+Assam,Jorhat,0.394198427,1.0,very low,11
+Assam,Morigaon,0.391183876,1.0,very low,12
+Assam,Kamrup Metropolitan,0.387822933,1.0,very low,13
+Assam,Dhubri,0.376900063,1.0,very low,14
+Assam,Charaideo,0.375685155,1.0,very low,15
+Assam,Goalpara,0.359834313,1.0,very low,16
+Assam,Nagaon,0.356987188,1.0,very low,17
+Assam,Dibrugarh,0.345209839,1.0,very low,18
+Assam,Sivasagar,0.330336201,1.0,very low,19
+Assam,Sonitpur,0.328707072,1.0,very low,20
+Assam,Majuli,0.31048594,1.0,very low,21
+Assam,Biswanath,0.279823493,1.0,very low,22
+Assam,Tinsukia,0.268034551,1.0,very low,23
+Assam,Darrang,0.255682055,1.0,very low,24
+Assam,Kamrup,0.249206337,1.0,very low,25
+Assam,Bongaigaon,0.236374429,1.0,very low,26
+Assam,Nalbari,0.226935353,1.0,very low,27
+Assam,Lakhimpur,0.221406681,1.0,very low,28
+Assam,Kokrajhar,0.200845732,1.0,very low,29
+Assam,Barpeta,0.186910623,1.0,very low,30
+Assam,Udalguri,0.109398489,1.0,very low,31
+Assam,Chirang,0.102719825,1.0,very low,32
+Assam,Baksa,0.0,1.0,very low,33
+Bihar,Gopalganj,0.81439,4.0,High,1
+Bihar,Purba Champaran,0.813645,4.0,High,2
+Bihar,Pashchim Champaran,0.811583,4.0,High,3
+Bihar,Sheohar,0.808847,4.0,High,4
+Bihar,Sitamarhi,0.79626,4.0,High,5
+Bihar,Aurangabad,0.790045,4.0,High,6
+Bihar,Aurangabad,0.790045,4.0,High,6
+Bihar,Siwan,0.78911,4.0,High,8
+Bihar,Muzaffarpur,0.788649,4.0,High,9
+Bihar,Darbhanga,0.784714,4.0,High,10
+Bihar,Rohtas,0.775659,4.0,High,11
+Bihar,Buxar,0.77555,4.0,High,12
+Bihar,Bhojpur,0.771776,3.0,moderate,13
+Bihar,Madhubani,0.770467,3.0,moderate,14
+Bihar,Arwal,0.770085,3.0,moderate,15
+Bihar,Supaul,0.768928,3.0,moderate,16
+Bihar,Samastipur,0.768739,3.0,moderate,17
+Bihar,Kaimur (Bhabua),0.766277,3.0,moderate,18
+Bihar,Begusarai,0.765112,3.0,moderate,19
+Bihar,Purnia,0.764784,3.0,moderate,20
+Bihar,Jehanabad,0.762565,3.0,moderate,21
+Bihar,Khagaria,0.762064,3.0,moderate,22
+Bihar,Saran,0.761452,3.0,moderate,23
+Bihar,Saharsa,0.760555,3.0,moderate,24
+Bihar,Munger,0.758138,3.0,moderate,25
+Bihar,Katihar,0.75229,3.0,moderate,26
+Bihar,Lakhisarai,0.751787,3.0,moderate,27
+Bihar,Madhepura,0.750787,3.0,moderate,28
+Bihar,Araria,0.750142,3.0,moderate,29
+Bihar,Gaya,0.74841,3.0,moderate,30
+Bihar,Patna,0.746699,3.0,moderate,31
+Bihar,Nalanda,0.745556,3.0,moderate,32
+Bihar,Bhagalpur,0.745186,3.0,moderate,33
+Bihar,Jamui,0.744747,3.0,moderate,34
+Bihar,Sheikhpura,0.744214,3.0,moderate,35
+Bihar,Nawada,0.742466,3.0,moderate,36
+Bihar,Vaishali,0.739205,3.0,moderate,37
+Bihar,Banka,0.728816,3.0,moderate,38
+Bihar,Kishanganj,0.668991,2.0,low,39
+Chandigarh,Chandigarh,0.723283384,3.0,moderate,1
+Chhattisgarh,Kabeerdham,0.835446349,4.0,High,1
+Chhattisgarh,Durg,0.827628874,4.0,High,2
+Chhattisgarh,Rajnandgaon,0.82592457,4.0,High,3
+Chhattisgarh,Mungeli,0.824086194,4.0,High,4
+Chhattisgarh,Raipur,0.795645779,4.0,High,5
+Chhattisgarh,Gariaband,0.792829595,4.0,High,6
+Chhattisgarh,Jashpur,0.789033162,4.0,High,7
+Chhattisgarh,Balod,0.78726428,4.0,High,8
+Chhattisgarh,Bametara,0.785488854,4.0,High,9
+Chhattisgarh,Raigarh,0.77871212,4.0,High,10
+Chhattisgarh,Janjgir - Champa,0.776813298,4.0,High,11
+Chhattisgarh,Uttar Bastar Kanker,0.774580359,4.0,High,12
+Chhattisgarh,Dhamtari,0.773684049,4.0,High,13
+Chhattisgarh,Korba,0.768325883,3.0,moderate,14
+Chhattisgarh,Bastar,0.760358328,3.0,moderate,15
+Chhattisgarh,Kondagaon,0.756701426,3.0,moderate,16
+Chhattisgarh,Surajpur,0.756185722,3.0,moderate,17
+Chhattisgarh,Mahasamund,0.756063195,3.0,moderate,18
+Chhattisgarh,Balrampur,0.754593899,3.0,moderate,19
+Chhattisgarh,Baloda Bazar,0.751531285,3.0,moderate,20
+Chhattisgarh,Bijapur,0.751308379,3.0,moderate,21
+Chhattisgarh,Surguja,0.748951718,3.0,moderate,22
+Chhattisgarh,Koriya,0.746482618,3.0,moderate,23
+Chhattisgarh,Dakshin Bastar Dantewada,0.738591882,3.0,moderate,24
+Chhattisgarh,Sukma,0.724197873,3.0,moderate,25
+Chhattisgarh,Narayanpur,0.718379083,3.0,moderate,26
+Dadra & Nagar Havelili,Dadra & Nagar Haveli,0.867069816,5.0,Very high,1
+Daman & Diu,Diu,0.818063303,4.0,High,1
+Daman & Diu,Daman,0.792568695,4.0,High,2
+Delhi,South West,0.859204777,5.0,Very high,1
+Delhi,North West,0.858898982,5.0,Very high,2
+Delhi,North,0.858369359,5.0,Very high,3
+Delhi,West,0.851753853,5.0,Very high,4
+Delhi,North East,0.848109057,5.0,Very high,5
+Delhi,Shahdara,0.847401742,5.0,Very high,6
+Delhi,South,0.831165183,4.0,High,7
+Delhi,Central,0.830585665,4.0,High,8
+Delhi,East,0.830569688,4.0,High,9
+Delhi,South East,0.825770926,4.0,High,10
+Delhi,New Delhi,0.820788441,4.0,High,11
+Goa,North Goa,1.0,5.0,Very high,1
+Goa,South Goa,0.94933963,5.0,Very high,2
+Gujarat,Ahmadabad,0.982446951,5.0,Very high,1
+Gujarat,Surat,0.976522871,5.0,Very high,2
+Gujarat,Navsari,0.955398799,5.0,Very high,3
+Gujarat,Bhavnagar,0.951198314,5.0,Very high,4
+Gujarat,Devbhumi Dwarka,0.929141541,5.0,Very high,5
+Gujarat,Bharuch,0.916970056,5.0,Very high,6
+Gujarat,Anand,0.915399391,5.0,Very high,7
+Gujarat,Rajkot,0.900353773,5.0,Very high,8
+Gujarat,Botad,0.899148509,5.0,Very high,9
+Gujarat,Amreli,0.892957309,5.0,Very high,10
+Gujarat,Jamnagar,0.892277806,5.0,Very high,11
+Gujarat,Gir Somnath,0.885920826,5.0,Very high,12
+Gujarat,Kheda,0.884133946,5.0,Very high,13
+Gujarat,Vadodara,0.880814111,5.0,Very high,14
+Gujarat,Morbi,0.876931686,5.0,Very high,15
+Gujarat,Banas Kantha,0.868647062,5.0,Very high,16
+Gujarat,Gandhinagar,0.86721435,5.0,Very high,17
+Gujarat,Mahesana,0.865750874,5.0,Very high,18
+Gujarat,Valsad,0.859269388,5.0,Very high,19
+Gujarat,Surendranagar,0.858871508,5.0,Very high,20
+Gujarat,Porbandar,0.857415562,5.0,Very high,21
+Gujarat,Patan,0.856909831,5.0,Very high,22
+Gujarat,Junagadh,0.856748102,5.0,Very high,23
+Gujarat,Sabar Kantha,0.850934407,5.0,Very high,24
+Gujarat,Dohad,0.847216119,5.0,Very high,25
+Gujarat,Panch Mahals,0.842642388,5.0,Very high,26
+Gujarat,Chota Udaipur,0.842409848,4.0,High,27
+Gujarat,Kachchh,0.840024937,4.0,High,28
+Gujarat,Aravalli,0.836040218,4.0,High,29
+Gujarat,Narmada,0.816033387,4.0,High,30
+Gujarat,Tapi,0.81059362,4.0,High,31
+Gujarat,Mahisagar,0.808862071,4.0,High,32
+Gujarat,The Dangs,0.746230765,3.0,moderate,33
+Haryana,Sirsa,0.807772032,4.0,High,1
+Haryana,Kaithal,0.793688503,4.0,High,2
+Haryana,Jind,0.792087669,4.0,High,3
+Haryana,Fatehabad,0.787522411,4.0,High,4
+Haryana,Mahendragarh,0.787262778,4.0,High,5
+Haryana,Ambala,0.784121372,4.0,High,6
+Haryana,Sonipat,0.783290207,4.0,High,7
+Haryana,Hisar,0.781853267,4.0,High,8
+Haryana,Kurukshetra,0.781758867,4.0,High,9
+Haryana,Rohtak,0.775256318,4.0,High,10
+Haryana,Karnal,0.774091418,4.0,High,11
+Haryana,Palwal,0.770113281,3.0,moderate,12
+Haryana,Bhiwani,0.76947963,3.0,moderate,13
+Haryana,Charki Dadri,0.769401681,3.0,moderate,14
+Haryana,Nuh,0.766962535,3.0,moderate,15
+Haryana,Faridabad,0.766738273,3.0,moderate,16
+Haryana,Panipat,0.762190307,3.0,moderate,17
+Haryana,Yamunanagar,0.762125417,3.0,moderate,18
+Haryana,Jhajjar,0.757291192,3.0,moderate,19
+Haryana,Rewari,0.749984315,3.0,moderate,20
+Haryana,Gurugram,0.743789179,3.0,moderate,21
+Haryana,Panchkula,0.711174263,3.0,moderate,22
+Himachal Pradesh,Una,0.71543038,3.0,moderate,1
+Himachal Pradesh,Sirmaur,0.681437928,3.0,moderate,2
+Himachal Pradesh,Kangra,0.672129822,2.0,low,3
+Himachal Pradesh,Hamirpur,0.669297797,2.0,low,4
+Himachal Pradesh,Shimla,0.668409719,2.0,low,5
+Himachal Pradesh,Lahul & Spiti,0.667832226,2.0,low,6
+Himachal Pradesh,Kinnaur,0.651454634,2.0,low,7
+Himachal Pradesh,Chamba,0.648822778,2.0,low,8
+Himachal Pradesh,Solan,0.644499918,2.0,low,9
+Himachal Pradesh,Mandi,0.630063704,2.0,low,10
+Himachal Pradesh,Kullu,0.628410245,2.0,low,11
+Jammu & Kashmir,Samba,0.772948,4.0,High,1
+Jammu & Kashmir,Jammu,0.754317,3.0,moderate,2
+Jammu & Kashmir,Pulwama,0.748949,3.0,moderate,3
+Jammu & Kashmir,Srinagar,0.744187,3.0,moderate,4
+Jammu & Kashmir,Kulgam,0.713536,3.0,moderate,5
+Jammu & Kashmir,Shupiyan,0.71323,3.0,moderate,6
+Jammu & Kashmir,Anantnag,0.710667,3.0,moderate,7
+Jammu & Kashmir,Kathua,0.709376,3.0,moderate,8
+Jammu & Kashmir,Udhampur,0.708093,3.0,moderate,9
+Jammu & Kashmir,Badgam,0.702799,3.0,moderate,10
+Jammu & Kashmir,Reasi,0.695683,3.0,moderate,11
+Jammu & Kashmir,Ramban,0.695278,3.0,moderate,12
+Jammu & Kashmir,Ganderbal,0.69083,3.0,moderate,13
+Jammu & Kashmir,Rajouri,0.688973,3.0,moderate,14
+Jammu & Kashmir,Bandipore,0.6873,3.0,moderate,15
+Jammu & Kashmir,Baramula,0.684514,3.0,moderate,16
+Jammu & Kashmir,Punch,0.669928,2.0,low,17
+Jammu & Kashmir,Kupwara,0.668833,2.0,low,18
+Jammu & Kashmir,Doda,0.660606,2.0,low,19
+Jammu & Kashmir,Muzaffarabad,0.650185,2.0,low,20
+Jammu & Kashmir,Mirpur,0.650072,2.0,low,21
+Jammu & Kashmir,Kishtwar,0.645757,2.0,low,22
+Jharkhand,Ranchi,0.794597383,4.0,High,1
+Jharkhand,Saraikela-Khars Awan,0.782464954,4.0,High,2
+Jharkhand,Palamu,0.781448171,4.0,High,3
+Jharkhand,Gumla,0.778902082,4.0,High,4
+Jharkhand,Bokaro,0.778498111,4.0,High,5
+Jharkhand,Purbi Singhbhum,0.776205435,4.0,High,6
+Jharkhand,Dhanbad,0.77547756,4.0,High,7
+Jharkhand,Garhwa,0.771147184,3.0,moderate,8
+Jharkhand,Pashchimi Singhbhum,0.769834247,3.0,moderate,9
+Jharkhand,Simdega,0.759933333,3.0,moderate,10
+Jharkhand,Lohardaga,0.75736192,3.0,moderate,11
+Jharkhand,Hazaribagh,0.752016219,3.0,moderate,12
+Jharkhand,Ramgarh,0.747968208,3.0,moderate,13
+Jharkhand,Giridih,0.745353031,3.0,moderate,14
+Jharkhand,Latehar,0.741213956,3.0,moderate,15
+Jharkhand,Jamtara,0.741067037,3.0,moderate,16
+Jharkhand,Khunti,0.740559841,3.0,moderate,17
+Jharkhand,Deoghar,0.734715242,3.0,moderate,18
+Jharkhand,Chatra,0.726530126,3.0,moderate,19
+Jharkhand,Kodarma,0.721883197,3.0,moderate,20
+Jharkhand,Godda,0.711165836,3.0,moderate,21
+Jharkhand,Dumka,0.710675585,3.0,moderate,22
+Jharkhand,Sahibganj,0.694090839,3.0,moderate,23
+Jharkhand,Pakur,0.687466061,3.0,moderate,24
+Karnataka,Dakshina Kannada,0.94866225,5.0,Very high,1
+Karnataka,Udupi,0.93085994,5.0,Very high,2
+Karnataka,Uttara Kannada,0.879447569,5.0,Very high,3
+Karnataka,Vijayapura,0.874791843,5.0,Very high,4
+Karnataka,Belagavi,0.872682391,5.0,Very high,5
+Karnataka,Bidar,0.864688438,5.0,Very high,6
+Karnataka,Kalaburagi,0.864033726,5.0,Very high,7
+Karnataka,Mysuru,0.863351306,5.0,Very high,8
+Karnataka,Bagalkote,0.843532682,5.0,Very high,9
+Karnataka,Shivamogga,0.843140165,5.0,Very high,10
+Karnataka,Chamarajanagar A,0.837456785,4.0,High,11
+Karnataka,Gadag,0.83635663,4.0,High,12
+Karnataka,Mandya,0.828118111,4.0,High,13
+Karnataka,Koppal,0.824169256,4.0,High,14
+Karnataka,Yadgir,0.823734475,4.0,High,15
+Karnataka,Dharwad,0.823637072,4.0,High,16
+Karnataka,Hassan,0.819933691,4.0,High,17
+Karnataka,Haveri,0.817823711,4.0,High,18
+Karnataka,Raichur,0.813565813,4.0,High,19
+Karnataka,Davanagere,0.812219875,4.0,High,20
+Karnataka,Ramanagara,0.811470735,4.0,High,21
+Karnataka,Kodagu,0.811211376,4.0,High,22
+Karnataka,Tumakuru,0.808554923,4.0,High,23
+Karnataka,Ballari,0.808056781,4.0,High,24
+Karnataka,Chikkamagaluru,0.804715212,4.0,High,25
+Karnataka,Bangalore,0.80470575,4.0,High,26
+Karnataka,Kolar,0.802505969,4.0,High,27
+Karnataka,Chitradurga,0.79927747,4.0,High,28
+Karnataka,Bengaluru Rural,0.771932853,3.0,moderate,29
+Karnataka,Chikkaballapura,0.754775547,3.0,moderate,30
+Kerala,Thiruvananthapu Ram,0.978748782,5.0,Very high,1
+Kerala,Ernakulam,0.970972271,5.0,Very high,2
+Kerala,Pathanamthitta,0.943432682,5.0,Very high,3
+Kerala,Kottayam,0.929237354,5.0,Very high,4
+Kerala,Alappuzha,0.909206259,5.0,Very high,5
+Kerala,Kasaragod,0.905013404,5.0,Very high,6
+Kerala,Malappuram,0.903923095,5.0,Very high,7
+Kerala,Kollam,0.894800731,5.0,Very high,8
+Kerala,Palakkad,0.886380612,5.0,Very high,9
+Kerala,Kannur,0.880054251,5.0,Very high,10
+Kerala,Idukki,0.875299309,5.0,Very high,11
+Kerala,Thrissur,0.856513637,5.0,Very high,12
+Kerala,Kozhikode,0.847339661,5.0,Very high,13
+Kerala,Wayanad,0.816187496,4.0,High,14
+Ladakh,Leh,0.705731319,3.0,moderate,1
+Ladakh,Kargil,0.680459927,3.0,moderate,2
+Madhya Pradesh,Indore,0.91640716,5.0,Very high,1
+Madhya Pradesh,Bhopal,0.902760797,5.0,Very high,2
+Madhya Pradesh,West Nimar,0.901129619,5.0,Very high,3
+Madhya Pradesh,Ujjain,0.893742851,5.0,Very high,4
+Madhya Pradesh,Dhar,0.891473567,5.0,Very high,5
+Madhya Pradesh,Shajapur,0.88846329,5.0,Very high,6
+Madhya Pradesh,Dewas,0.886572797,5.0,Very high,7
+Madhya Pradesh,East Nimar,0.871542846,5.0,Very high,8
+Madhya Pradesh,Chhindwara,0.86984545,5.0,Very high,9
+Madhya Pradesh,Barwani,0.866876979,5.0,Very high,10
+Madhya Pradesh,Sehore,0.866484062,5.0,Very high,11
+Madhya Pradesh,Ratlam,0.861235252,5.0,Very high,12
+Madhya Pradesh,Mandsaur,0.857298613,5.0,Very high,13
+Madhya Pradesh,Hoshangabad,0.85670424,5.0,Very high,14
+Madhya Pradesh,Betul,0.853209176,5.0,Very high,15
+Madhya Pradesh,Rajgarh,0.850500931,5.0,Very high,16
+Madhya Pradesh,Raisen,0.849244288,5.0,Very high,17
+Madhya Pradesh,Jabalpur,0.849180411,5.0,Very high,18
+Madhya Pradesh,Balaghat,0.840901104,4.0,High,19
+Madhya Pradesh,Burhanpur,0.839816023,4.0,High,20
+Madhya Pradesh,Jhabua,0.837963585,4.0,High,21
+Madhya Pradesh,Agar Malwa,0.837921645,4.0,High,22
+Madhya Pradesh,Narsimhapur,0.837009555,4.0,High,23
+Madhya Pradesh,Seoni,0.830283426,4.0,High,24
+Madhya Pradesh,Mandla,0.828924893,4.0,High,25
+Madhya Pradesh,Vidisha,0.828264165,4.0,High,26
+Madhya Pradesh,Harda,0.824779848,4.0,High,27
+Madhya Pradesh,Neemuch,0.815959387,4.0,High,28
+Madhya Pradesh,Sagar,0.809175171,4.0,High,29
+Madhya Pradesh,Alirajpur,0.804065183,4.0,High,30
+Madhya Pradesh,Dindori,0.79819378,4.0,High,31
+Madhya Pradesh,Rewa,0.794606362,4.0,High,32
+Madhya Pradesh,Anuppur,0.788651765,4.0,High,33
+Madhya Pradesh,Guna,0.784158004,4.0,High,34
+Madhya Pradesh,Katni,0.782588219,4.0,High,35
+Madhya Pradesh,Satna,0.78103551,4.0,High,36
+Madhya Pradesh,Shahdol,0.76561038,3.0,moderate,37
+Madhya Pradesh,Sidhi,0.76540884,3.0,moderate,38
+Madhya Pradesh,Umaria,0.764733979,3.0,moderate,39
+Madhya Pradesh,Damoh,0.764287514,3.0,moderate,40
+Madhya Pradesh,Singrauli,0.763479441,3.0,moderate,41
+Madhya Pradesh,Morena,0.762362511,3.0,moderate,42
+Madhya Pradesh,Ashoknagar,0.758625894,3.0,moderate,43
+Madhya Pradesh,Bhind,0.754999698,3.0,moderate,44
+Madhya Pradesh,Gwalior,0.746118143,3.0,moderate,45
+Madhya Pradesh,Sheopur,0.744705405,3.0,moderate,46
+Madhya Pradesh,Panna,0.740636978,3.0,moderate,47
+Madhya Pradesh,Shivpuri,0.739927414,3.0,moderate,48
+Madhya Pradesh,Datia,0.722671747,3.0,moderate,49
+Madhya Pradesh,Chhatarpur,0.72160835,3.0,moderate,50
+Madhya Pradesh,Tikamgarh,0.690373236,3.0,moderate,51
+Madhya Pradesh,Niwari,0.672348382,3.0,moderate,52
+Maharashtra,Mumbai Suburban,0.96447229,5.0,Very high,1
+Maharashtra,Mumbai,0.962022278,5.0,Very high,2
+Maharashtra,Sindhudurg,0.958652133,5.0,Very high,3
+Maharashtra,Ratnagiri,0.948842817,5.0,Very high,4
+Maharashtra,Nagpur,0.930094061,5.0,Very high,5
+Maharashtra,Palghar,0.915553253,5.0,Very high,6
+Maharashtra,Kolhapur,0.898247206,5.0,Very high,7
+Maharashtra,Nanded,0.892454738,5.0,Very high,8
+Maharashtra,Bhandara,0.889709099,5.0,Very high,9
+Maharashtra,Buldana,0.886622171,5.0,Very high,10
+Maharashtra,Chandrapur,0.885532439,5.0,Very high,11
+Maharashtra,Gondiya,0.884873369,5.0,Very high,12
+Maharashtra,Solapur,0.880508921,5.0,Very high,13
+Maharashtra,Parbhani,0.879343208,5.0,Very high,14
+Maharashtra,Akola,0.878639083,5.0,Very high,15
+Maharashtra,Jalna,0.877084655,5.0,Very high,16
+Maharashtra,Ahmadnagar,0.875496872,5.0,Very high,17
+Maharashtra,Latur,0.874833447,5.0,Very high,18
+Maharashtra,Pune,0.871204987,5.0,Very high,19
+Maharashtra,Bid,0.86999373,5.0,Very high,20
+Maharashtra,Amravati,0.86764328,5.0,Very high,21
+Maharashtra,Jalgaon,0.866946295,5.0,Very high,22
+Maharashtra,Hingoli,0.866192172,5.0,Very high,23
+Maharashtra,Thane,0.859204124,5.0,Very high,24
+Maharashtra,Wardha,0.852115288,5.0,Very high,25
+Maharashtra,Yavatmal,0.850700964,5.0,Very high,26
+Maharashtra,Washim,0.848632259,5.0,Very high,27
+Maharashtra,Sangli,0.842189083,4.0,High,28
+Maharashtra,Osmanabad,0.841074945,4.0,High,29
+Maharashtra,Nashik,0.838694953,4.0,High,30
+Maharashtra,Dhule,0.837230442,4.0,High,31
+Maharashtra,Aurangabad,0.835296858,4.0,High,32
+Maharashtra,Satara,0.828186362,4.0,High,33
+Maharashtra,Nandurbar,0.825465449,4.0,High,34
+Maharashtra,Gadchiroli,0.815055075,4.0,High,35
+Maharashtra,Raigarh,0.77871212,4.0,High,36
+Manipur,Pherzawl,0.68891,3.0,moderate,1
+Manipur,Chandel,0.686912,3.0,moderate,2
+Manipur,Churachandpur,0.683736,3.0,moderate,3
+Manipur,Jiribam,0.664706,2.0,low,4
+Manipur,Thoubal,0.662669,2.0,low,5
+Manipur,Bishnupur,0.660528,2.0,low,6
+Manipur,Kakching,0.658884,2.0,low,7
+Manipur,Senapati,0.658319,2.0,low,8
+Manipur,Tengnoupal,0.65583,2.0,low,9
+Manipur,Ukhrul,0.650208,2.0,low,10
+Manipur,Noney,0.644196,2.0,low,11
+Manipur,Kamjong,0.643449,2.0,low,12
+Manipur,Kangpokpi,0.631256,2.0,low,13
+Manipur,Imphal West,0.625314,2.0,low,14
+Manipur,Imphal East,0.625083,2.0,low,15
+Manipur,Tamenglong,0.624311,2.0,low,16
+Meghalaya,South West Garo Hills,0.73107374,3.0,moderate,1
+Meghalaya,West Garo Hills,0.598484209,2.0,low,2
+Meghalaya,East Jaintia Hills,0.573190646,2.0,low,3
+Meghalaya,West Khasi Hills,0.570343216,2.0,low,4
+Meghalaya,South Garo Hills,0.561328999,2.0,low,5
+Meghalaya,East Garo Hills,0.559781887,2.0,low,6
+Meghalaya,Ribhoi,0.530544746,2.0,low,7
+Meghalaya,South West Khasi Hills,0.526453475,2.0,low,8
+Meghalaya,West Jaintia Hills,0.517190969,2.0,low,9
+Meghalaya,North Garo Hills,0.4591583,1.0,very low,10
+Meghalaya,East Khasi Hills,0.331071821,1.0,very low,11
+Mizoram,Lawngtlai,0.758841,3.0,moderate,1
+Mizoram,Aizawl,0.753116,3.0,moderate,2
+Mizoram,Lunglei,0.741623,3.0,moderate,3
+Mizoram,Kolasib,0.727416,3.0,moderate,4
+Mizoram,Champhai,0.715596,3.0,moderate,5
+Mizoram,Mamit,0.714529,3.0,moderate,6
+Mizoram,Serchhip,0.700247,3.0,moderate,7
+Mizoram,Saiha,0.685842,3.0,moderate,8
+Nagaland,Phek,0.667498917,2.0,low,1
+Nagaland,Peren,0.644040906,2.0,low,2
+Nagaland,Kohima,0.643467515,2.0,low,3
+Nagaland,Kiphire,0.633799303,2.0,low,4
+Nagaland,Dimapur,0.617950203,2.0,low,5
+Nagaland,Zunheboto,0.58246149,2.0,low,6
+Nagaland,Tuensang,0.578816287,2.0,low,7
+Nagaland,Wokha,0.571109543,2.0,low,8
+Nagaland,Mokokchung,0.501156641,2.0,low,9
+Nagaland,Mon,0.496500478,2.0,low,10
+Nagaland,Longleng,0.48590791,2.0,low,11
+Odisha,Khordha,0.849294015,5.0,Very high,1
+Odisha,Baleshwar,0.837931831,4.0,High,2
+Odisha,Ganjam,0.830831143,4.0,High,3
+Odisha,Mayurbhanj,0.812343785,4.0,High,4
+Odisha,Puri,0.811274458,4.0,High,5
+Odisha,Cuttack,0.805914116,4.0,High,6
+Odisha,Nayagarh,0.803056699,4.0,High,7
+Odisha,Jajapur,0.793149933,4.0,High,8
+Odisha,Nabarangapur,0.778555847,4.0,High,9
+Odisha,Bhadrak,0.777778319,4.0,High,10
+Odisha,Gajapati,0.777602298,4.0,High,11
+Odisha,Balangir,0.776438319,4.0,High,12
+Odisha,Bargarh,0.775370143,4.0,High,13
+Odisha,Dhenkanal,0.774045826,4.0,High,14
+Odisha,Nuapada,0.771386242,3.0,moderate,15
+Odisha,Sundargarh,0.768289402,3.0,moderate,16
+Odisha,Kendujhar,0.765553081,3.0,moderate,17
+Odisha,Jagatsinghapur,0.762811765,3.0,moderate,18
+Odisha,Baudh,0.755311272,3.0,moderate,19
+Odisha,Kalahandi,0.754583774,3.0,moderate,20
+Odisha,Jharsuguda,0.748714074,3.0,moderate,21
+Odisha,Anugul,0.746690237,3.0,moderate,22
+Odisha,Subarnapur,0.745479788,3.0,moderate,23
+Odisha,Kandhamal,0.74545808,3.0,moderate,24
+Odisha,Rayagada,0.744907175,3.0,moderate,25
+Odisha,Koraput,0.742155395,3.0,moderate,26
+Odisha,Kendrapara,0.740265844,3.0,moderate,27
+Odisha,Malkangiri,0.729731511,3.0,moderate,28
+Odisha,Sambalpur,0.72507325,3.0,moderate,29
+Odisha,Debagarh,0.70762359,3.0,moderate,30
+Puducherry,Karaikal,0.844218331,5.0,Very high,1
+Puducherry,Puducherry,0.840026687,4.0,High,2
+Puducherry,Yanam,0.820497773,4.0,High,3
+Puducherry,Mahe,0.726171366,3.0,moderate,4
+Punjab,Bathinda,0.819035516,4.0,High,1
+Punjab,Patiala,0.809395568,4.0,High,2
+Punjab,Amritsar,0.803393066,4.0,High,3
+Punjab,Sangrur,0.802835138,4.0,High,4
+Punjab,Fazilka,0.80133311,4.0,High,5
+Punjab,Mansa,0.801174002,4.0,High,6
+Punjab,Tarn Taran,0.792313232,4.0,High,7
+Punjab,Sri Muktsar Sahib,0.791253552,4.0,High,8
+Punjab,Ludhiana,0.787375408,4.0,High,9
+Punjab,Moga,0.782038944,4.0,High,10
+Punjab,Barnala,0.776428425,4.0,High,11
+Punjab,Jalandhar,0.774901705,4.0,High,12
+Punjab,Firozpur,0.772781967,4.0,High,13
+Punjab,Faridkot,0.767214489,3.0,moderate,14
+Punjab,Pathankot,0.767010152,3.0,moderate,15
+Punjab,Fatehgarh Sahib,0.76212129,3.0,moderate,16
+Punjab,Hoshiarpur,0.761902398,3.0,moderate,17
+Punjab,Kapurthala,0.759525481,3.0,moderate,18
+Punjab,Gurdaspur,0.75684713,3.0,moderate,19
+Punjab,Sahibzada Ajit Singh Nagar,0.747847676,3.0,moderate,20
+Punjab,Shahid Bhagat Singh Nagar,0.738495899,3.0,moderate,21
+Punjab,Rupnagar,0.722560719,3.0,moderate,22
+Rajasthan,Jaipur,0.860472122,5.0,Very high,1
+Rajasthan,Banswara,0.856513018,5.0,Very high,2
+Rajasthan,Jalor,0.852598517,5.0,Very high,3
+Rajasthan,Udaipur,0.851904963,5.0,Very high,4
+Rajasthan,Jhalawar,0.847354015,5.0,Very high,5
+Rajasthan,Pali,0.845685838,5.0,Very high,6
+Rajasthan,Chittaurgarh,0.845043255,5.0,Very high,7
+Rajasthan,Dungarpur,0.832489388,4.0,High,8
+Rajasthan,Sirohi,0.830618754,4.0,High,9
+Rajasthan,Kota,0.814474475,4.0,High,10
+Rajasthan,Nagaur,0.812660527,4.0,High,11
+Rajasthan,Bhilwara,0.812458092,4.0,High,12
+Rajasthan,Ajmer,0.810819906,4.0,High,13
+Rajasthan,Sikar,0.808420386,4.0,High,14
+Rajasthan,Dausa,0.807523806,4.0,High,15
+Rajasthan,Tonk,0.805961384,4.0,High,16
+Rajasthan,Jodhpur,0.805164668,4.0,High,17
+Rajasthan,Ganganagar,0.802691136,4.0,High,18
+Rajasthan,Barmer,0.802367889,4.0,High,19
+Rajasthan,Pratapgarh,0.800883483,4.0,High,20
+Rajasthan,Bharatpur,0.795133292,4.0,High,21
+Rajasthan,Bundi,0.794753528,4.0,High,22
+Rajasthan,Alwar,0.793418703,4.0,High,23
+Rajasthan,Rajsamand,0.792093555,4.0,High,24
+Rajasthan,Sawai Madhopur,0.79009975,4.0,High,25
+Rajasthan,Jhunjhunun,0.788968069,4.0,High,26
+Rajasthan,Churu,0.783478808,4.0,High,27
+Rajasthan,Hanumangarh,0.780020001,4.0,High,28
+Rajasthan,Karauli,0.778325108,4.0,High,29
+Rajasthan,Bikaner,0.777295925,4.0,High,30
+Rajasthan,Baran,0.776928748,4.0,High,31
+Rajasthan,Dhaulpur,0.749659269,3.0,moderate,32
+Rajasthan,Jaisalmer,0.738340194,3.0,moderate,33
+Sikkim,West District,0.691990326,3.0,moderate,1
+Sikkim,South District,0.686801697,3.0,moderate,2
+Sikkim,East District,0.662438886,2.0,low,3
+Sikkim,Kessang,,,Unknown,4
+Tamil Nadu,Thanjavur,0.911005,5.0,Very high,1
+Tamil Nadu,Nagapattinam,0.909625,5.0,Very high,2
+Tamil Nadu,Salem,0.90567,5.0,Very high,3
+Tamil Nadu,Ramanathapur Am,0.887822,5.0,Very high,4
+Tamil Nadu,Tiruppur,0.874674,5.0,Very high,5
+Tamil Nadu,Cuddalore,0.874409,5.0,Very high,6
+Tamil Nadu,Madurai,0.872764,5.0,Very high,7
+Tamil Nadu,Namakkal,0.869254,5.0,Very high,8
+Tamil Nadu,Viluppuram,0.865319,5.0,Very high,9
+Tamil Nadu,Thiruvarur,0.865262,5.0,Very high,10
+Tamil Nadu,Tiruchirappalli,0.863279,5.0,Very high,11
+Tamil Nadu,Dharmapuri,0.860608,5.0,Very high,12
+Tamil Nadu,Pudukkottai,0.859772,5.0,Very high,13
+Tamil Nadu,Erode,0.853921,5.0,Very high,14
+Tamil Nadu,Perambalur,0.851726,5.0,Very high,15
+Tamil Nadu,Coimbatore,0.846913,5.0,Very high,16
+Tamil Nadu,Kanniyakumari,0.844873,5.0,Very high,17
+Tamil Nadu,Dindigul,0.839192,4.0,High,18
+Tamil Nadu,Chennai,0.839001,4.0,High,19
+Tamil Nadu,Tirunelveli,0.83808,4.0,High,20
+Tamil Nadu,Karur,0.837819,4.0,High,21
+Tamil Nadu,Tiruvannamalai,0.837323,4.0,High,22
+Tamil Nadu,Krishnagiri,0.834462,4.0,High,23
+Tamil Nadu,Sivaganga,0.822459,4.0,High,24
+Tamil Nadu,Theni,0.820459,4.0,High,25
+Tamil Nadu,The Nilgiris,0.813906,4.0,High,26
+Tamil Nadu,Virudhunagar,0.809952,4.0,High,27
+Tamil Nadu,Vellore,0.80801,4.0,High,28
+Tamil Nadu,Thoothukkudi,0.804152,4.0,High,29
+Tamil Nadu,Ariyalur,0.802238,4.0,High,30
+Tamil Nadu,Thiruvallur,0.795589,4.0,High,31
+Tamil Nadu,Kancheepuram,0.793698,4.0,High,32
+Tamil Nadu,Kallakurichi,0.780468,4.0,High,33
+Tamil Nadu,Chengalpattu,0.759705,3.0,moderate,34
+Tamil Nadu,Tenkasi,0.749382,3.0,moderate,35
+Tamil Nadu,Ranipet,0.732633,3.0,moderate,36
+Tamil Nadu,Tirupathur,0.705599,3.0,moderate,37
+Telangana,Jagitial,0.886129632,5.0,Very high,1
+Telangana,Karimnagar,0.871888737,5.0,Very high,2
+Telangana,Nizamabad,0.869406228,5.0,Very high,3
+Telangana,Medak,0.86449094,5.0,Very high,4
+Telangana,Sangareddy,0.852606011,5.0,Very high,5
+Telangana,Adilabad,0.850566865,5.0,Very high,6
+Telangana,Peddapalli,0.849280815,5.0,Very high,7
+Telangana,Nirmal,0.848553429,5.0,Very high,8
+Telangana,Rajanna Sircilla,0.843227858,5.0,Very high,9
+Telangana,Mahabubnagar,0.832973412,4.0,High,10
+Telangana,Mancherial,0.832772136,4.0,High,11
+Telangana,Kamareddy,0.83214539,4.0,High,12
+Telangana,Vikarabad,0.82789539,4.0,High,13
+Telangana,Ranga Reddy,0.825154815,4.0,High,14
+Telangana,Kumuram Bheem Asifabad,0.821715773,4.0,High,15
+Telangana,Hyderabad,0.808575625,4.0,High,16
+Telangana,Siddipet,0.805628253,4.0,High,17
+Telangana,Medchal Malkajgiri,0.805076531,4.0,High,18
+Telangana,Wanaparthy,0.804982506,4.0,High,19
+Telangana,Warangal Urban,0.802655082,4.0,High,20
+Telangana,Khammam,0.798545892,4.0,High,21
+Telangana,Jogulamba Gadwal,0.796735569,4.0,High,22
+Telangana,Jayashankar,0.794683815,4.0,High,23
+Telangana,Bhadradri Kothagudem,0.768957018,3.0,moderate,24
+Telangana,Nagarkurnool,0.766134622,3.0,moderate,25
+Telangana,Warangal Rural,0.762102218,3.0,moderate,26
+Telangana,Jangoan,0.758870527,3.0,moderate,27
+Telangana,Yadadri Bhuvanagiri,0.758144938,3.0,moderate,28
+Telangana,Nalgonda,0.757846518,3.0,moderate,29
+Telangana,Narayanpet,0.740306674,3.0,moderate,30
+Telangana,Suryapet,0.734117711,3.0,moderate,31
+Telangana,Mahabubabad,0.729745631,3.0,moderate,32
+Telangana,Mulugu,0.705392492,3.0,moderate,33
+Tripura,North Tripura,0.79984455,4.0,High,1
+Tripura,Unokoti,0.795474607,4.0,High,2
+Tripura,West Tripura,0.783710477,4.0,High,3
+Tripura,Khowai,0.76910929,3.0,moderate,4
+Tripura,Dhalai,0.734473181,3.0,moderate,5
+Tripura,Sipahijala,0.707306279,3.0,moderate,6
+Tripura,Gomati,0.67882964,3.0,moderate,7
+Tripura,South Tripura,0.656084734,2.0,low,8
+Uttar Pradesh,Lucknow,0.878864063,5.0,Very high,1
+Uttar Pradesh,Kushinagar,0.87479322,5.0,Very high,2
+Uttar Pradesh,Prayagraj,0.866184655,5.0,Very high,3
+Uttar Pradesh,Varanasi,0.856285526,5.0,Very high,4
+Uttar Pradesh,Bara Banki,0.832305302,4.0,High,5
+Uttar Pradesh,Jaunpur,0.831123239,4.0,High,6
+Uttar Pradesh,Saharanpur,0.830189841,4.0,High,7
+Uttar Pradesh,Ghazipur,0.829583868,4.0,High,8
+Uttar Pradesh,Sultanpur,0.827348278,4.0,High,9
+Uttar Pradesh,Amethi,0.82616188,4.0,High,10
+Uttar Pradesh,Sitapur,0.824353426,4.0,High,11
+Uttar Pradesh,Bhadohi,0.823297026,4.0,High,12
+Uttar Pradesh,Deoria,0.822920541,4.0,High,13
+Uttar Pradesh,Ambedkar Nagar,0.818953724,4.0,High,14
+Uttar Pradesh,Gonda,0.817429113,4.0,High,15
+Uttar Pradesh,Mirzapur,0.81525222,4.0,High,16
+Uttar Pradesh,Rae Bareli,0.814836402,4.0,High,17
+Uttar Pradesh,Kaushambi,0.814082957,4.0,High,18
+Uttar Pradesh,Kheri,0.813696816,4.0,High,19
+Uttar Pradesh,Bahraich,0.813597845,4.0,High,20
+Uttar Pradesh,Kanpur Nagar,0.810916541,4.0,High,21
+Uttar Pradesh,Gorakhpur,0.809315841,4.0,High,22
+Uttar Pradesh,Mau,0.806227235,4.0,High,23
+Uttar Pradesh,Muzaffarnag Ar,0.804790314,4.0,High,24
+Uttar Pradesh,Azamgarh,0.804668643,4.0,High,25
+Uttar Pradesh,Chandauli,0.803533745,4.0,High,26
+Uttar Pradesh,Meerut,0.803257127,4.0,High,27
+Uttar Pradesh,Hardoi,0.801861346,4.0,High,28
+Uttar Pradesh,Faizabad,0.801630633,4.0,High,29
+Uttar Pradesh,Pratapgarh,0.800883483,4.0,High,30
+Uttar Pradesh,Baghpat,0.798706228,4.0,High,31
+Uttar Pradesh,Hathras,0.798458626,4.0,High,32
+Uttar Pradesh,Basti,0.797397811,4.0,High,33
+Uttar Pradesh,Kannauj,0.797117287,4.0,High,34
+Uttar Pradesh,Aligarh,0.797105694,4.0,High,35
+Uttar Pradesh,Mahrajganj,0.796727636,4.0,High,36
+Uttar Pradesh,Unnao,0.795938847,4.0,High,37
+Uttar Pradesh,Auraiya,0.795911846,4.0,High,38
+Uttar Pradesh,Sonbhadra,0.795056211,4.0,High,39
+Uttar Pradesh,Ghaziabad,0.794842593,4.0,High,40
+Uttar Pradesh,Ballia,0.793051155,4.0,High,41
+Uttar Pradesh,Kanpur Dehat,0.791367808,4.0,High,42
+Uttar Pradesh,Bulandshahr,0.790954576,4.0,High,43
+Uttar Pradesh,Agra,0.790406529,4.0,High,44
+Uttar Pradesh,Shrawasti,0.789086426,4.0,High,45
+Uttar Pradesh,Etawah,0.788967154,4.0,High,46
+Uttar Pradesh,Fatehpur,0.788445344,4.0,High,47
+Uttar Pradesh,Gautam Buddha Nagar,0.786362236,4.0,High,48
+Uttar Pradesh,Farrukhabad,0.785601855,4.0,High,49
+Uttar Pradesh,Mathura,0.783372973,4.0,High,50
+Uttar Pradesh,Shamli,0.782130758,4.0,High,51
+Uttar Pradesh,Hapur,0.781201613,4.0,High,52
+Uttar Pradesh,Mainpuri,0.780668723,4.0,High,53
+Uttar Pradesh,Banda,0.780332617,4.0,High,54
+Uttar Pradesh,Kasganj,0.779613465,4.0,High,55
+Uttar Pradesh,Sambhal,0.774122293,4.0,High,56
+Uttar Pradesh,Sant Kabir Nagar,0.772536986,4.0,High,57
+Uttar Pradesh,Etah,0.771229489,3.0,moderate,58
+Uttar Pradesh,Firozabad,0.771209047,3.0,moderate,59
+Uttar Pradesh,Jalaun,0.765299238,3.0,moderate,60
+Uttar Pradesh,Chitrakoot,0.765251724,3.0,moderate,61
+Uttar Pradesh,Bijnor,0.76382832,3.0,moderate,62
+Uttar Pradesh,Shahjahanp Ur,0.763318855,3.0,moderate,63
+Uttar Pradesh,Siddharthna Gar,0.761648468,3.0,moderate,64
+Uttar Pradesh,Budaun,0.761374727,3.0,moderate,65
+Uttar Pradesh,Moradabad,0.7590776,3.0,moderate,66
+Uttar Pradesh,Balrampur,0.754593899,3.0,moderate,67
+Uttar Pradesh,Amroha,0.753936374,3.0,moderate,68
+Uttar Pradesh,Lalitpur,0.748974273,3.0,moderate,69
+Uttar Pradesh,Bareilly,0.741501454,3.0,moderate,70
+Uttar Pradesh,Rampur,0.739811959,3.0,moderate,71
+Uttar Pradesh,Mahoba,0.72349753,3.0,moderate,72
+Uttar Pradesh,Pilibhit,0.721488673,3.0,moderate,73
+Uttar Pradesh,Jhansi,0.70241449,3.0,moderate,74
+Uttar Pradesh,Hamirpur,0.669297797,2.0,low,75
+Uttarakhand,Hardwar,0.772532281,4.0,High,1
+Uttarakhand,Bageshwar,0.767988308,3.0,moderate,2
+Uttarakhand,Champawat,0.762465687,3.0,moderate,3
+Uttarakhand,Udham Singh Nagar,0.749414942,3.0,moderate,4
+Uttarakhand,Dehradun,0.748381438,3.0,moderate,5
+Uttarakhand,Nainital,0.744274258,3.0,moderate,6
+Uttarakhand,Rudraprayag,0.737355495,3.0,moderate,7
+Uttarakhand,Garhwal,0.732397255,3.0,moderate,8
+Uttarakhand,Tehri Garhwal,0.725805051,3.0,moderate,9
+Uttarakhand,Pithoragarh,0.723478429,3.0,moderate,10
+Uttarakhand,Chamoli,0.714438687,3.0,moderate,11
+Uttarakhand,Uttarkashi,0.686827873,3.0,moderate,12
+West Bengal,North Twenty Four Pargan,0.809549,4.0,High,1
+West Bengal,South Twenty Four Pargan,0.805079,4.0,High,2
+West Bengal,Kolkata,0.796712,4.0,High,3
+West Bengal,Puruliya,0.785942,4.0,High,4
+West Bengal,Purba Medinipur,0.783574,4.0,High,5
+West Bengal,Bankura,0.782579,4.0,High,6
+West Bengal,Hooghly,0.769255,3.0,moderate,7
+West Bengal,Medinipur West,0.7663,3.0,moderate,8
+West Bengal,Paschim Bardhaman,0.764875,3.0,moderate,9
+West Bengal,Howrah,0.764157,3.0,moderate,10
+West Bengal,Nadia,0.754871,3.0,moderate,11
+West Bengal,Birbhum,0.746812,3.0,moderate,12
+West Bengal,Purba Bardhaman,0.742799,3.0,moderate,13
+West Bengal,Dakshin Dinajpur,0.731463,3.0,moderate,14
+West Bengal,Jhargram,0.720616,3.0,moderate,15
+West Bengal,Murshidabad,0.71862,3.0,moderate,16
+West Bengal,Maldah,0.711992,3.0,moderate,17
+West Bengal,Uttar Dinajpur,0.694725,3.0,moderate,18
+West Bengal,Darjiling,0.611212,2.0,low,19
+West Bengal,Kalimpong,0.602677,2.0,low,20
+West Bengal,Jalpaiguri,0.478387,2.0,low,21
+West Bengal,Cooch Behar,0.460427,1.0,very low,22
+West Bengal,Alipurduar,0.370649,1.0,very low,23

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heat Season and Pregnancy Trimesters</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+  <style>
+    body { margin: 0; padding: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: transparent; }
+    .cal-wrap { padding: 0.5rem 0 1.5rem; max-width: 680px; }
+    .month-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
+    .month-btn { font-size: 12px; font-weight: 500; padding: 5px 10px; border: 0.5px solid #ccc; border-radius: 6px; background: #f5f5f5; color: #555; cursor: pointer; transition: background 0.15s; }
+    .month-btn:hover { background: #e8e8e8; }
+    .month-btn.active { background: #B5D4F4; color: #0C447C; border-color: #378ADD; }
+    .months-axis { display: grid; grid-template-columns: repeat(9, 1fr); gap: 2px; }
+    .axis-label { font-size: 11px; color: #888; text-align: center; padding-bottom: 4px; }
+    .axis-label.heat { color: #993C1D; font-weight: 500; }
+    .bar-row { display: grid; grid-template-columns: repeat(9, 1fr); gap: 2px; margin-bottom: 4px; }
+    .seg { height: 28px; border-radius: 3px; background: #f0f0f0; }
+    .seg.t1 { background: #B5D4F4; }
+    .seg.t2 { background: #5DCAA5; }
+    .seg.t3 { background: #FAC775; }
+    .seg.t1.heat-on { background: #85B7EB; }
+    .seg.t2.heat-on { background: #1D9E75; }
+    .seg.t3.heat-on { background: #BA7517; }
+    .row-label { font-size: 12px; color: #555; margin-bottom: 3px; }
+    .finding-box { border: 0.5px solid #ddd; border-radius: 10px; padding: 1rem 1.25rem; background: #fff; margin-top: 1.5rem; }
+    .finding-stat { font-size: 22px; font-weight: 500; color: #1a1a1a; margin: 0 0 2px; }
+    .finding-label { font-size: 13px; color: #555; margin: 0; }
+    .finding-source { font-size: 11px; color: #999; margin-top: 6px; }
+    .legend-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 1rem 0 0.5rem; font-size: 12px; color: #555; align-items: center; }
+    .leg-item { display: flex; align-items: center; gap: 5px; }
+    .leg-swatch { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+    .insight-pill { display: inline-block; font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: 20px; background: #FAECE7; color: #993C1D; margin-left: 6px; }
+    p.intro { font-size: 13px; color: #555; margin: 0 0 1rem; }
+  </style>
+</head>
+<body>
+<div class="cal-wrap">
+  <p class="intro">
+    Select a conception month to see how trimester windows fall against India's heat season (March–June).
+    <span class="insight-pill">first trimester → preterm risk · second → low birthweight</span>
+  </p>
+  <div class="month-row" id="monthBtns"></div>
+  <div id="timeline">
+    <div class="legend-row">
+      <span class="leg-item"><span class="leg-swatch" style="background:#B5D4F4;"></span>Trimester 1</span>
+      <span class="leg-item"><span class="leg-swatch" style="background:#5DCAA5;"></span>Trimester 2</span>
+      <span class="leg-item"><span class="leg-swatch" style="background:#FAC775;"></span>Trimester 3</span>
+      <span class="leg-item"><span class="leg-swatch" style="background:#1D9E75;"></span>Heat season overlap</span>
+    </div>
+    <div class="months-axis" id="axisRow"></div>
+    <div style="margin-bottom:3px;"><span class="row-label">T1</span></div>
+    <div class="bar-row" id="t1Row"></div>
+    <div style="margin-bottom:3px;margin-top:4px;"><span class="row-label">T2</span></div>
+    <div class="bar-row" id="t2Row"></div>
+    <div style="margin-bottom:3px;margin-top:4px;"><span class="row-label">T3</span></div>
+    <div class="bar-row" id="t3Row"></div>
+  </div>
+  <div class="finding-box" id="findingBox">
+    <p style="font-size:13px;color:#555;margin:0;">Select a conception month above to see trimester-specific findings from Vincent et al. 2026.</p>
+  </div>
+</div>
+<script>
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const HEAT = [2,3,4,5];
+const FINDINGS = {
+  t1_heat: { stat: 'aOR 1.036', label: 'Risk of preterm birth per additional sweltering day (first trimester)', note: 'Vincent et al. 2026, 95% CI: 1.009–1.064' },
+  t2_heat: { stat: 'aOR 1.010', label: 'Risk of low birthweight per additional sweltering day (second trimester)', note: 'Vincent et al. 2026, 95% CI: 1.002–1.018' },
+  t3_heat: { stat: 'aOR 1.029', label: 'Stillbirth association (third trimester, wide CI)', note: 'Vincent et al. 2026, 95% CI: 0.998–1.060 — suggestive but not significant' },
+  no_heat: { stat: 'No overlap', label: 'This trimester falls outside the March–June heat season', note: 'CEEW 2025: >70% of districts saw 5+ extra warm nights per summer' }
+};
+function getTrimonths(idx) {
+  const t1=[], t2=[], t3=[];
+  for(let i=0;i<3;i++) t1.push((idx+i)%12);
+  for(let i=3;i<6;i++) t2.push((idx+i)%12);
+  for(let i=6;i<9;i++) t3.push((idx+i)%12);
+  return {t1,t2,t3};
+}
+function isHeat(m){return HEAT.includes(m);}
+function buildAxis(months9){
+  const row=document.getElementById('axisRow');
+  row.innerHTML='';
+  months9.forEach(m=>{
+    const d=document.createElement('div');
+    d.className='axis-label'+(isHeat(m)?' heat':'');
+    d.textContent=MONTHS[m];
+    row.appendChild(d);
+  });
+}
+function buildTRow(id,months,cls){
+  const row=document.getElementById(id);
+  row.innerHTML='';
+  months.forEach(m=>{
+    const d=document.createElement('div');
+    d.className='seg '+cls+(isHeat(m)?' heat-on':'');
+    row.appendChild(d);
+  });
+}
+function getFinding(t1,t2,t3){
+  if(t2.some(isHeat)) return FINDINGS.t2_heat;
+  if(t1.some(isHeat)) return FINDINGS.t1_heat;
+  if(t3.some(isHeat)) return FINDINGS.t3_heat;
+  return FINDINGS.no_heat;
+}
+function renderFinding(f){
+  const box=document.getElementById('findingBox');
+  box.innerHTML=`<p class="finding-stat">${f.stat}</p><p class="finding-label">${f.label}</p><p class="finding-source">${f.note}</p>`;
+}
+function renderMonth(idx){
+  const {t1,t2,t3}=getTrimonths(idx);
+  buildAxis([...t1,...t2,...t3]);
+  buildTRow('t1Row',t1,'t1');
+  buildTRow('t2Row',t2,'t2');
+  buildTRow('t3Row',t3,'t3');
+  renderFinding(getFinding(t1,t2,t3));
+  document.querySelectorAll('.month-btn').forEach((btn,i)=>btn.classList.toggle('active',i===idx));
+}
+const btnRow=document.getElementById('monthBtns');
+MONTHS.forEach((m,i)=>{
+  const btn=document.createElement('button');
+  btn.className='month-btn';
+  btn.textContent=m;
+  btn.addEventListener('click',()=>renderMonth(i));
+  btnRow.appendChild(btn);
+});
+renderMonth(11);
+</script>
+</body>
+</html>
